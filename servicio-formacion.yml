@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: servicio-formacion
 server:
   port: 0
 eureka:
