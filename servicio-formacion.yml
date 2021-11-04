@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: servicio-formacion
+server:
+  port: 0
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+  instance:
+    instance-id: formacion-instance:${random.value}
