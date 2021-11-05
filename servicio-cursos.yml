@@ -17,5 +17,5 @@ eureka:
     service-url:
       default-zone: http://192.168.0.21:8761/eureka
   instance:
-    instance-id: curso-instance:${random.value}
+    instance-id: curso1
     hostname: 192.168.0.21
