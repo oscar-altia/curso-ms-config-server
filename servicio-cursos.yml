@@ -17,7 +17,5 @@ eureka:
     service-url:
       default-zone: http://192.168.0.21:8761/eureka
   instance:
-    instance-id: curso1
+    instance-id: curso-instance:${random.value}
     hostname: 192.168.0.21
-    prefer-ip-address: true
-    ip-address: 192.168.0.21
